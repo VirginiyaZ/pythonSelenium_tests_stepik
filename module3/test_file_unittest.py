@@ -1,7 +1,8 @@
 import unittest
+
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
 
 
 class TestAll(unittest.TestCase):
@@ -39,15 +40,15 @@ class TestAll(unittest.TestCase):
 
         self.first = browser.find_element(By.CSS_SELECTOR,
             "div.first_block input.first"
-        ).send_keys("Data")
+        ).send_keys("Hi")
 
         self.second = browser.find_element(By.CSS_SELECTOR,
             "div.first_block input.second"
-        ).send_keys("Data")
+        ).send_keys("World")
 
         self.third = browser.find_element(By.CSS_SELECTOR,
             "div.first_block input.third"
-        ).send_keys("Data")
+        ).send_keys("mail@mail.com")
 
         self.button = browser.find_element(By.CSS_SELECTOR,
             "button.btn"
