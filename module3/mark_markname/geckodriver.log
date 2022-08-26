@@ -1,0 +1,17 @@
+1661504296827	geckodriver	INFO	Listening on 127.0.0.1:49495
+1661504297346	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49496" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/62/lsr_8s814sz9cqp33shypyq00000gn/T/rust_mozprofileqofCX3"
+2022-08-26 13:58:17.750 plugin-container[1145:17316] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-26 13:58:17.751 plugin-container[1145:17316] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-26 13:58:17.754 plugin-container[1145:17316] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-26 13:58:17.754 plugin-container[1145:17316] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-26 13:58:17.754 plugin-container[1145:17324] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-26 13:58:17.754 plugin-container[1145:17324] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661504297773	Marionette	INFO	Marionette enabled
+1661504297801	Marionette	INFO	Listening on port 49503
+WebDriver BiDi listening on ws://localhost:49496
+Read port: 49503
+1661504297958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/lsr_8s814sz9cqp33shypyq00000gn/T/rust_mozprofileqofCX3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49496/devtools/browser/151e3230-3304-4d2a-85a2-e447278c79af
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/, line 758: ReferenceError: oscar is not defined
+1661504301052	Marionette	INFO	Stopped listening on port 49503
