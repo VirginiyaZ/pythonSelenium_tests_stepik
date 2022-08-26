@@ -1,0 +1,17 @@
+1661503562543	geckodriver	INFO	Listening on 127.0.0.1:49314
+1661503562971	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49315" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/62/lsr_8s814sz9cqp33shypyq00000gn/T/rust_mozprofile3SnCM6"
+1661503576669	Marionette	INFO	Marionette enabled
+2022-08-26 13:46:16.762 plugin-container[867:11327] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-26 13:46:16.762 plugin-container[867:11327] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-26 13:46:16.781 plugin-container[867:11327] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-26 13:46:16.781 plugin-container[867:11327] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-26 13:46:16.781 plugin-container[867:11385] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-26 13:46:16.781 plugin-container[867:11385] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661503576835	Marionette	INFO	Listening on port 49328
+WebDriver BiDi listening on ws://localhost:49315
+Read port: 49328
+1661503576975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/lsr_8s814sz9cqp33shypyq00000gn/T/rust_mozprofile3SnCM6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49315/devtools/browser/0b246c29-a5c7-4a3f-8c42-a121b7c6634c
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1660299070, line 6289: unreachable code after return statement
+JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1660299070, line 6105: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
