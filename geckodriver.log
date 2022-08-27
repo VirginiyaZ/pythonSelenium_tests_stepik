@@ -15,3 +15,5 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:49315/devtools/browser/0b246c29-a5c7-4a3f-8c42-a121b7c6634c
 JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1660299070, line 6289: unreachable code after return statement
 JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1660299070, line 6105: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+1661507247658	Marionette	INFO	Stopped listening on port 49328
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
